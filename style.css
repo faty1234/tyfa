@@ -1,0 +1,50 @@
+body{
+    background: #54349C;
+}
+.content{
+    margin: 0 auto;
+    background: #fbc2c8;
+    width: 70%;
+    padding: 20px 35px;
+}
+h1{
+    text-align: center;
+    color: #53349C;
+}
+.box{
+    flex-grow: 1;
+    flex-basis: 300px;
+    background: #fff;
+    border-radius: 7px;
+    text-align: center;
+    height: 20vh;
+}
+.box i{
+    margin: 1rem;
+    color: #53349C;
+}
+.infos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.form{
+    padding-top: 1rem;
+}
+.input-form input,
+textarea{
+ width: 100%;
+}
+.input-form input{
+    height: 30px;
+}
+.form button{
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #53349C;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+
+}
